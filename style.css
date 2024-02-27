@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation */
+.logo-nav {
+  width: 100px;
+  height: 34px;
+  top: 25px;
+  left: 136px;
+  background-color: #0d28a6;
+}
+
+.navbar-nav {
+  top: 24px;
+  left: 864px;
+  gap: 32px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#navbarNav .btn {
+  border-radius: 2px;
+  padding: 8px 12px 8px 12px;
+  gap: 10px;
+}
+
+#navbarNav .btn-brand {
+  background-color: #5cb85f;
+  color: #ffffff;
+}
+
+/* main section */
+#main {
+  background-color: #f1f3ff;
+}
+
+.overlay-title {
+  width: 568px;
+  height: 108px;
+  top: 177px;
+  left: 136px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.overlay-description {
+  width: 468px;
+  height: 60px;
+  top: 301px;
+  left: 136px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#main .btn {
+  width: auto;
+  height: auto;
+  top: 377px;
+  left: 136px;
+  border-radius: 2px;
+  padding: 8px 12px;
+  gap: 10px;
+  background-color: #5cb85f;
+}
+
+#main .btn-brand {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* our-services section */
+.icon-paragraf {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  gap: 16px;
+}
+
+.paragraf {
+  width: 255px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* why-us section */
+#featured-3 {
+  width: 1168px;
+  height: 308px;
+  top: 1132px;
+  left: 136px;
+  align-items: left;
+  justify-content: center;
+}
+
+#featured-3 .pb-2 {
+  width: 468px;
+  height: 36px;
+  top: 1132px;
+  left: 136px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.why-p {
+  width: 468px;
+  height: 20px;
+  top: 1184px;
+  left: 136px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.feature {
+  top: 1244px;
+  top: 136px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.why-us-img {
+  width: 32px;
+  height: 32px;
+}
+
+.fs-2 {
+  width: auto;
+  height: auto;
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #000000;
+}
+
+#featured-3 p {
+  width: 220px;
+  height: auto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* testimonial */
+#testimonial h2 {
+  top: 1540px;
+  left: 466px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 150px;
+  color: #000000;
+}
+
+.testi-p {
+  top: 1592px;
+  left: 466px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.carousel {
+  background-color: #f1f3ff;
+  width: 619px;
+  height: 270px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-item .testi {
+  width: 415px;
+  height: auto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+}
+
+.carousel-item h3 {
+  width: 415px;
+  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./assets/images/Left\ button.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("./assets/images/Right\ button.svg");
+}
+
+/* CTA Banner */
+#cta {
+  margin: 20px;
+}
