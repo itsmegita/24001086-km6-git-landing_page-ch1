@@ -24,13 +24,10 @@ body {
   color: #000000;
 }
 
-#navbarNav .btn {
+.container .btn {
   border-radius: 2px;
   padding: 8px 12px 8px 12px;
   gap: 10px;
-}
-
-#navbarNav .btn-brand {
   background-color: #5cb85f;
   color: #ffffff;
 }
@@ -98,72 +95,13 @@ body {
 }
 
 /* why-us section */
-#featured-3 {
-  width: 1168px;
-  height: 308px;
-  top: 1132px;
-  left: 136px;
-  align-items: left;
-  justify-content: center;
-}
-
-#featured-3 .pb-2 {
-  width: 468px;
-  height: 36px;
-  top: 1132px;
-  left: 136px;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: #000000;
-}
-
-.why-p {
-  width: 468px;
-  height: 20px;
-  top: 1184px;
-  left: 136px;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000000;
-}
-
-.feature {
-  top: 1244px;
-  top: 136px;
-  border: 1px solid #d0d0d0;
-  border-radius: 8px;
-  padding: 24px;
-}
-
-.why-us-img {
+.card-img-top {
   width: 32px;
   height: 32px;
 }
 
-.fs-2 {
-  width: auto;
-  height: auto;
-  font-weight: 700;
-  font-size: 16px !important;
-  line-height: 24px;
-  color: #000000;
-}
-
-#featured-3 p {
-  width: 220px;
-  height: auto;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000000;
-}
-
 /* testimonial */
 #testimonial h2 {
-  top: 1540px;
-  left: 466px;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -172,8 +110,6 @@ body {
 }
 
 .testi-p {
-  top: 1592px;
-  left: 466px;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -214,5 +150,165 @@ body {
 
 /* CTA Banner */
 #cta {
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d28a6;
+  width: 1168px;
+  height: 326px;
+  color: #ffffff;
+  border-radius: 13px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#cta .container {
+  text-align: center;
+}
+
+#cta h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#cta p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#cta .btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+
+/* faq */
+#faq {
+  width: 1168px;
+  height: 344px;
+  margin: 5px auto;
+  margin-top: 100px;
+  color: #000000;
+}
+
+.col-md-6 .faq-h2 {
+  width: 368px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.col-md-6 .faq-p {
+  width: 368px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#accordion-one {
+  margin-bottom: 16px;
+}
+
+.accordion-button {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* footer */
+#footer {
+  width: 1168px;
+  height: 344px;
+  margin-left: 180px;
+}
+
+.footer-p {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-icon {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#footer img {
+  margin-right: 16px;
+}
+
+.copyright {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 268px;
+  height: 70px;
+  margin-left: 150px;
+}
+
+.logo-cr {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+  #main .btn {
+    width: 25%;
+  }
+
+  #testimonial .carousel {
+    width: 500px;
+    height: 400px;
+  }
+
+  .carousel-item img {
+    order: -1;
+    margin-top: 20px;
+  }
+
+  .carousel-item .col {
+    flex-direction: column;
+  }
+
+  .testi-col {
+    margin-top: 20px;
+  }
+
+  #cta {
+    width: fit-content;
+    height: 500px;
+  }
+
+  #footer {
+    margin: 0;
+  }
+
+  #footer .copyright {
+    margin: 16px 0;
+  }
 }
